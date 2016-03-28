@@ -1,0 +1,30 @@
+{
+  "name": "bbfire",
+  "version": "0.1.0",
+  "description": "Utility to create npm module for Firebase's BackboneFire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t3patterson/bbfire.git"
+  },
+  "keywords": [
+    "backbone",
+    "firebase",
+    "backbonefire"
+  ],
+  "author": "tph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t3patterson/bbfire/issues"
+  },
+  "homepage": "https://github.com/t3patterson/bbfire#readme",
+  "dependencies": {
+    "jquery":"^2.2.2",
+    "underscore":"^1.8.3",
+    "backbone": "^1.3.2",
+    "firebase": "^2.4.1"
+  }
+}
