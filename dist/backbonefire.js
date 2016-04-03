@@ -9,20 +9,26 @@
  */
  ;
 
-var Backbone, _ ,  Firebase
+var Backbone,
+    _,  
+    Firebase,
+    context = window
+
+
 if (module && module.exports){
-Backbone = require('backbone');
-_ = require('underscore');
-Firebase = require('firebase');
+  Backbone = require('backbone');
+  _ = require('underscore');
+  Firebase = require('firebase');
+  context = module.exports
 } 
   
 
 _        =  _ || window._
 Backbone = Backbone || window.Backbone
 Firebase = Firebase || window.Firebase
+context = module.exports || window.BackboneFire
 
-
-module.exports = function(a, b) { "use strict";
+context = function(a, b) { "use strict";
     b.Firebase = {}, 
     b.Firebase._getKey = function(a) {
         return "function" == typeof a.key ? a.key() : a.name() }, b.Firebase._determineAutoSync = function(b, c) {
