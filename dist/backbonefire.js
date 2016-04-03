@@ -9,16 +9,17 @@
  */
  ;
 
- if (module && module.exports){
-  var Backbone = require('backbone');
-  var _ = require('underscore');
-  var Firebase = require('firebase')
- } 
+var Backbone, _ ,  Firebase
+if (module && module.exports){
+Backbone = require('backbone');
+_ = require('underscore');
+Firebase = require('firebase');
+} 
   
 
- var _ =  _ || window._
- var Backbone = Backbone || window.Backbone
- var Firebase = Firebase || window.Firebase
+_        =  _ || window._
+Backbone = Backbone || window.Backbone
+Firebase = Firebase || window.Firebase
 
 
 module.exports = function(a, b) { "use strict";
