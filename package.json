@@ -1,6 +1,6 @@
 {
   "name": "bbfire",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility to create npm module for Firebase's BackboneFire",
   "main": "index.js",
   "scripts": {
